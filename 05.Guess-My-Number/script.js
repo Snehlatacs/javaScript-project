@@ -31,7 +31,6 @@ console.log(document.querySelector('.guess').value);//o/p:23.
 document.querySelector('.check').addEventListener('click', function() {
   const guess = Number(document.querySelector('.guess').value);//whenever we get something from user interface for example in input field, it always a string, so we have to convert it into a number so we can compare a number from a number.
   console.log(typeof guess, guess);
-c 
 });
 
 */
