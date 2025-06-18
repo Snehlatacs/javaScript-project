@@ -10,7 +10,7 @@ console.log(document.querySelector('.message').textContent);//.querySelector('.m
 
 //for setting the content for something else from it's original value on the web page:
 document.querySelector('.message').textContent = '🎉Correct number';
-//still the console value doesn't changed for that:🎉Correct number
+//still the console value doesn't changed for that:🎉Correct number.
 console.log(document.querySelector('.message').textContent);//o/p:
 
 //doing same with different element..........
